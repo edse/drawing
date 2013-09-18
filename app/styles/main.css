@@ -1,0 +1,78 @@
+/* ===== Primary Styles ========================================================
+    Author:
+========================================================================== */
+.toolbar{
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  width: 29px;
+}
+
+.toolbar .btn{
+  padding: 5px 5px;
+}
+
+.toolbar .btn-default.active{
+  background-color: #FCFFB0;
+  border-color: #CAD122;
+}
+
+.toolbar .btn-group-vertical{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.list-group-item.active{
+  background-color: #FCFFB0;
+  border-color: #CAD122;
+}
+
+.tool-bar{
+  display: none;
+  position: absolute;
+  top: 55px;
+  right: 5px;
+  width: 29px;
+  float: right;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+.list-group-item{
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 5px;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.navbar img, .list-group-item img, .toolbar button img {
+  width:16px;
+}
+
+.dropdown-menu{
+  min-width: 125px;
+  font-size: 12px;
+}
+
+.dropdown-menu > li > a{
+  padding: 3px 5px;
+}
+
+.dropdown-header{
+  padding: 3px 14px;
+}
+
+#canvas { 
+  cursor: crosshair;
+}
+
+#canvas:active { 
+  cursor: crosshair;
+}​
