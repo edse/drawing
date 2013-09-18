@@ -1,0 +1,20 @@
+{
+  "name": "drawing",
+  "version": "0.0.1",
+  "homepage": "https://github.com/edse/drawing",
+  "authors": [
+    "Emerson Estrella <emerson.estrella@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+  "dependencies": {
+    "jquery": ">=2.0.3",
+    "bootstrap": ">=3.0.0"
+  },
+}
